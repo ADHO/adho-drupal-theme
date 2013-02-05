@@ -1,0 +1,149 @@
+/**
+ * adhotheme adhotheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+#menu-bar-wrapper {
+background-image:url('top-pattern-sub.gif');
+background-repeat:repeat-x;
+background-position:bottom;
+}
+/*Provides scalloped edges on the top menu*/
+
+#header-wrapper {
+display:none;
+}
+/*Hides space intended for large logo*/
+
+#menu-bar a:hover {
+color:#417ba8;
+}
+/*Makes the main menu text blue when hovered over*/
+
+.article-inner > header {
+background-image:url('sub-article-block-bg.png');
+background-repeat:no-repeat;
+background-position:left;
+}
+/*Adds the circle graphic next to page header*/
+
+.article-inner > header > h1 {
+margin-left:35px;
+}
+/*Adds spacing so circle graphic next to header doesn't overlap*/
+
+#footer-panels-wrapper {
+background-image:url('bottom-pattern-sub.png');
+background-repeat:repeat-x;
+background-position:top;
+background-color:#417ba8;
+color:#ffffff;
+}
+/*Colors footer, adds background image*/
+
+#footer-panels-wrapper .block-title {
+color:#ffffff;
+}
+/*Changes block header color in footer*/
+
+
+#footer-panels-wrapper a {
+color:#ecc510;}
+
+#footer-panels-wrapper a:hover {
+color:#ffffff;}
+/*Change link color in footer */
+
+h3.member {
+margin-top:10px;
+}
+
+h3.member a {
+color:#ffffff;
+background-color:#417ba8;
+padding:20px;
+border-radius:2ex;
+-webkit-border-radius:2ex;
+-moz-border-radius:2ex;
+}
+/*Styling for "Become a Member" block*/
+
+div.frontblock {
+color:#ffffff;
+background-color:#417ba8;
+padding:20px;
+border-radius:2ex;
+-webkit-border-radius:2ex;
+-moz-border-radius:2ex;
+}
+
+div.frontblock a {
+color:#ecc510;
+}
+
+div.frontblock a:hover {
+color:#ffffff;}
+
+/*Styling for blue blocks on the front page*/
+
+.readmore {
+float:right;
+}
+/*Floats "read more" link for blue blocks on front page to the right*/
+
+div.feeditem {
+margin-top:5px;
+border-bottom: 1px dotted #417ba8;
+padding-bottom:5px;
+}
+
+.feedblock a {
+color:#417ba8;
+}
+
+.feedblock a:hover {
+color:#ecc510;
+}
+/*Styling for feed item blocks for front page */
+
+div.awarditem {
+margin-bottom:10px;
+}
+
+div.awardblock, #block-menu-menu-committees {
+color:#ffffff;
+background-color:#417ba8;
+padding:20px;
+border-radius:2ex;
+-webkit-border-radius:2ex;
+-moz-border-radius:2ex;
+}
+
+#block-menu-menu-committees a {
+color:#ecc510;
+}
+
+div.awardblock, #block-menu-menu-committees a:hover {
+color:#ffffff;
+}
+
+div.awardblock, #block-menu-menu-committees h2 {
+color:#ffffff;
+}
+
+div.awardblock a {
+color:#ecc510;
+}
+
+div.awardblock a:hover {
+color:#ffffff;
+}
+
+div.awardblock h2 {
+color:#ffffff;
+}
